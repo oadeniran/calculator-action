@@ -1,17 +1,21 @@
 def add_function(x, y):
+    #Addition code
     return x + y
 
 def subtract_function(x, y):
+    #Subtraction code
     return x - y
 
 def multiply_function(x, y):
+    # Multiplication code
     return x * y
 
 def divide_function(x, y):
+    #Division code
     return x / y
 
 if __name__ == "__main__":
-
+    # Segregate function definitions and main program
     print('Welcome calculator')
     print(''' SELECT OPTION (number-only)
             1) Addition
