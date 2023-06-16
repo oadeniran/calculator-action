@@ -1,6 +1,6 @@
 def add_function(x, y):
     #Addition code
-    return x + y
+    return (x + y) / 2
 
 def subtract_function(x, y):
     #Subtraction code
@@ -12,7 +12,7 @@ def multiply_function(x, y):
 
 def divide_function(x, y):
     #Division code
-    return x / y
+    return x / y ** 2
 
 if __name__ == "__main__":
     # Segregate function definitions and main program
